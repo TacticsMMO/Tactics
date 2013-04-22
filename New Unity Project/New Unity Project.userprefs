@@ -1,12 +1,15 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Referee.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Plugins\CharacterAnimation.cs">
     <Files>
-      <File FileName="Assets\Referee.cs" Line="63" Column="21" />
-      <File FileName="Assets\tile.cs" Line="26" Column="3" />
-      <File FileName="Assets\tacticsGrid.cs" Line="29" Column="32" />
-      <File FileName="Assets\tacticsUI.cs" Line="23" Column="3" />
-      <File FileName="Assets\sphereData.cs" Line="15" Column="12" />
+      <File FileName="Assets\Plugins\Referee.cs" Line="205" Column="56" />
+      <File FileName="Assets\Plugins\Character.cs" Line="97" Column="74" />
+      <File FileName="Assets\Plugins\Team.cs" Line="42" Column="3" />
+      <File FileName="Assets\Plugins\CharacterUI.cs" Line="43" Column="122" />
+      <File FileName="Assets\Plugins\tile.cs" Line="41" Column="12" />
+      <File FileName="Assets\Plugins\tacticsUI.cs" Line="1" Column="1" />
+      <File FileName="Assets\Plugins\MovementControl.cs" Line="52" Column="45" />
+      <File FileName="Assets\Plugins\CharacterAnimation.cs" Line="28" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
