@@ -10,10 +10,10 @@ public class tacticsGrid : MonoBehaviour {
 	private float xRes;
 	private float yRes;
 
-	int tiles = 23;
+	int tiles = 27;
 	int rows = 28;
 	Vector3 pos;
-	int xSpacing = 12;
+	int xSpacing = 10;
 	int ySpacing = 10;
 	int zSpacing = 6;
 	int xPos = 20; //separacao dos tiles

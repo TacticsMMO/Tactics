@@ -2,8 +2,11 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Referee.cs">
     <Files>
-      <File FileName="Assets\Referee.cs" Line="118" Column="32" />
-      <File FileName="Assets\MovementControl.cs" Line="24" Column="45" />
+      <File FileName="Assets\Referee.cs" Line="63" Column="21" />
+      <File FileName="Assets\tile.cs" Line="26" Column="3" />
+      <File FileName="Assets\tacticsGrid.cs" Line="29" Column="32" />
+      <File FileName="Assets\tacticsUI.cs" Line="23" Column="3" />
+      <File FileName="Assets\sphereData.cs" Line="15" Column="12" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

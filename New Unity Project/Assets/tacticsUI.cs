@@ -30,6 +30,7 @@ public class tacticsUI : MonoBehaviour {
 		if (myRef.sphereSelected){
 			if (GUI.Button (new Rect (Screen.width-200,Screen.height-450,100,30), "Move")) {
 				myRef.moveButtonPressed = true;
+				myRef.showMoveTiles();
 			}
 			
 		}

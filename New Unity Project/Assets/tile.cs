@@ -24,7 +24,6 @@ public class tile : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-	
 	}
 	
 	void OnMouseOver ()
@@ -40,46 +39,6 @@ public class tile : MonoBehaviour
 	
 	void OnMouseDown (){
 		myRef.movementControl(this.transform.position);
-		/*
-		activeSphere = myRef.activeSphere;
-		activePlayer = myRef.activePlayer;
-		renderer.material.color = new Color (0, 255, 0);
-		allSpheres = GameObject.FindGameObjectsWithTag ("Unit");
-		
-		foreach (GameObject sph in allSpheres) {
-			actSpherePos = sph.GetComponent<sphereData> ().spherePos;
-			sphereID = sph.GetComponent<sphereData> ().sphereID;
-			spherePlayerID = sph.GetComponent<sphereData> ().playerID;
-			
-			if (this.transform.position == actSpherePos && spherePlayerID == activePlayer) {
-				timeToMove = true;
-				myRef.activeSphere = sphereID;
-				renderer.material.color = new Color (0, 255, 0);
-				break;
-			} else if (this.transform.position != actSpherePos && myRef.activeSphere == sphereID) {                 //criar funçao para limitar a distancia de mov.
-					
-				foreach (GameObject otherSph in allSpheres) {
-					if (otherSph.GetComponent<sphereData> ().spherePos == this.transform.position && timeToMove) {
-						timeToMove = false;
-						myRef.errorDisplay (2);
-						break;
-					}	
-				}
-					
-				if (timeToMove) {
-					sph.GetComponent<sphereData> ().spherePos = this.transform.position;
-					sph.transform.position = this.transform.position;
-					timeToMove = false;
-		
-					myRef.turnCycle ();
-					break;
-				}
-			}
-		}
-		print (activeSphere); */
-		
-		
-		
 		
 	}
 	
