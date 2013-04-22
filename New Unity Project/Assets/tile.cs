@@ -4,7 +4,6 @@ using System.Collections;
 public class tile : MonoBehaviour
 {
 	
-	public static bool timeToMove;
 	int activeSphere;
 	Vector3 actSpherePos;
 	int sphereID;
@@ -18,7 +17,6 @@ public class tile : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-		timeToMove = false;
 		Scripts = GameObject.Find ("Scripts");
 		myRef = Scripts.GetComponent<Referee> ();
 	}
