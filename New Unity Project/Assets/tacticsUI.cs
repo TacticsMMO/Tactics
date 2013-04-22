@@ -20,10 +20,12 @@ public class tacticsUI : MonoBehaviour {
 	}
 	
 	void OnGUI () {
-
+		
+		/*
 		if (GUI.Button (new Rect (Screen.width-200,Screen.height-400,100,30), "Show Grid")) {
 			print ("You clicked the Grid button!");
 		}
+		*/
 		
 		if (myRef.sphereSelected){
 			if (GUI.Button (new Rect (Screen.width-200,Screen.height-450,100,30), "Move")) {
