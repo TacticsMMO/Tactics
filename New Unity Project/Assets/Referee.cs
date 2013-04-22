@@ -4,9 +4,6 @@ using System.Collections.Generic;
 
 public class Referee : MonoBehaviour
 {
-	
-	
-	
 	public GUIText turnText;              // para escrever de quem é o turno actual
 	public GUIText errorText;
 	int numberPlayers = 4;
@@ -118,10 +115,11 @@ public class Referee : MonoBehaviour
 					//sphereToMove.transform.position = tileToMove;
 					newPos = tileToMove;
 					movingSphere = true;
+					moveButtonPressed = false;
 					GetComponent<MovementControl> ().startMovement (oldPos, newPos);
-					sphereSelected = false;
 					turnCycle ();
-				} else {
+				} 
+				else {
 					sphereSelected = false;	
 					moveButtonPressed = false;
 				}

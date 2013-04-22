@@ -32,9 +32,12 @@ public class MovementControl : MonoBehaviour {
         	// Set our position as a fraction of the distance between the markers
 			sphereToMove.transform.position = Vector3.Lerp(actualPos, newPos, fracJourney);
 	
+			
 			if (sphereToMove.transform.position == newPos){
-				GetComponent<Referee>().movingSphere=false;	
+				GetComponent<Referee>().movingSphere=false;
+				GetComponent<Referee>().sphereSelected=false;
 			}
+			
 		}
 	}
 
